@@ -69,12 +69,12 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 >    - [Herramienta para revisar etiquetas de Twitter (X) Cards](https://cards-dev.twitter.com/validator)
 >    - [Generador de flavicons](https://realfavicongenerator.net/)
 > - **TailwindCSS:**
->   - dddd
+>   - [Documentación de TailwindCSS](https://tailwindcss.com/docs/installation)
 > - **JavaScript:**
 >    - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
 >    - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 > - **React:**
->   - dddd
+>   - [Documentación de React](https://es.react.dev/)
 > - **Google Fonts:**
 >    - [How to use Google Fonts](https://developers.google.com/fonts/docs/css2?hl=es-419)
 >    - [FAQs about Google Fonts](https://developers.google.com/fonts/faq?hl=es-419)
@@ -83,7 +83,8 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 >    - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
 > - **Cursos y Recursos:**
 >   - [Tutorial de Cómo Aprender TailWinds](https://www.youtube.com/watch?v=tS7upsfuxmo)
->   - [frontendchecklist.io](https://frontendchecklist.io/)
+>   - [frontendchecklist.io](https://frontendchecklist.io/) -> Nos ayuda a verificar una lista de 92 comprobaciones de todos los elementos que debe tener un Front-End para que esté completo y optimizado.
+>   - [Tutorial de React de MiduLive](https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29)
 
 ## ➡️ Licencia
 Este proyecto está licenciado bajo [MIT License](https://opensource.org/license/mit/).
