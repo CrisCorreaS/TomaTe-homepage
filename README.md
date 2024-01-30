@@ -24,18 +24,12 @@ El diseño visual de la página principal se ha elaborado utilizando Figma. Pued
 La estructura del proyecto sigue las mejores prácticas de organización de un proyecto React, dividiéndolo en componentes reutilizables y contenedores lógicos. Aquí hay un vistazo rápido a la estructura de carpetas:
 ```
 - /public
-  - index.html
 - /src
-  - App.js
-  - styles.css
-  - index.js
-- .gitignore
-- package.json
-- README.md
-- tailwind.config.js
-- vite.config.js
+  - App.jsx
+  - index.css
+  - main.jsx
 ```
-Esta estructura es bastante estándar para proyectos React con Vite y Tailwind CSS. La carpeta **public** contiene archivos estáticos, como el **index.html** principal. La carpeta **src** contiene el código fuente de la aplicación, con subcarpetas para componentes y estilos. Los archivos de configuración y otros archivos principales están en la raíz del proyecto.
+Esta estructura es bastante estándar para proyectos React con Vite y Tailwind CSS. La carpeta **public** contiene archivos estáticos. La carpeta **src** contiene el código fuente de la aplicación, con subcarpetas para componentes y estilos. Los archivos de configuración y otros archivos principales están en la raíz del proyecto.
 
 ## 🖥 Instrucciones para Ejecutar el Proyecto
 - Clona este repositorio en tu máquina local: ``git clone https://github.com/CrisCorreaS/TomaTe-homepage.git``
