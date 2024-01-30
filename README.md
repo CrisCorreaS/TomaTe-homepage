@@ -1,4 +1,3 @@
-# 🫖 TomaTe-homepage
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 <img align="right" alt="License MIT" src="https://img.shields.io/badge/LICENSE-MIT-green" /> <br/>
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
@@ -7,6 +6,8 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
 <br/>
+
+# 🫖 TomaTe-homepage
 Este proyecto representa la página principal de mi Trabajo de Fin de Ciclo desarrollado con React y Tailwind CSS. La iniciativa surge como parte de los requisitos establecidos por mi profesor de interfaces, quien asignó la tarea de crear el frontend de la página principal para el proyecto de fin de curso.
 
 ## 👀 Vista Previa
