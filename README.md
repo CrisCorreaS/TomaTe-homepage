@@ -60,7 +60,7 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 > [!TIP]
 > A la hora de desarrollar el proyecto, te pueden venir bien los siguientes recursos:
 > - **Para empezar:**
->   - [Tutorial de cómo inicializar un proyecto con Tailwinds](https://tailwindcss.com/docs/guides/vite)
+>   - [Tutorial de cómo inicializar un proyecto con TailWindCSS](https://tailwindcss.com/docs/guides/vite)
 > - **HTML:**
 >    - [Validador HTML W3C](https://validator.w3.org/)
 >    - [seotoolseye.com](https://seotoolseye.com/) -> Proporciona una variedad de herramientas gratuitas para ayudar a mejorar el rendimiento de un sitio web
@@ -83,6 +83,7 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 >    - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
 > - **Cursos y Recursos:**
 >   - [Tutorial de Cómo Aprender TailWinds](https://www.youtube.com/watch?v=tS7upsfuxmo)
+>   - [Tutorial de cómo hacer una web con React + Vite + TailWindCSS](https://www.youtube.com/watch?v=GJCi3N_yU4I)
 >   - [frontendchecklist.io](https://frontendchecklist.io/) -> Nos ayuda a verificar una lista de 92 comprobaciones de todos los elementos que debe tener un Front-End para que esté completo y optimizado.
 >   - [Tutorial de React de MiduLive](https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29)
 
