@@ -70,10 +70,12 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 > - **React:**
 >   - [Documentación de React](https://es.react.dev/)
 > - **Google Fonts:**
+>    - [Google Fonts Set Up en React](https://csstailwind.com/how-to-add-google-fonts-in-tailwindcss-complete-guide/)
 >    - [How to use Google Fonts](https://developers.google.com/fonts/docs/css2?hl=es-419)
 >    - [FAQs about Google Fonts](https://developers.google.com/fonts/faq?hl=es-419)
 > - **Font Awesome:**
->    - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
+>    - [Font Awesome Set Up en React](https://fontawesome.com/docs/web/use-with/react/add-icons)
+>    - [Font Awesome Añadir Iconos en React](https://fontawesome.com/docs/web/use-with/react/add-icons)
 >    - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
 > - **Cursos y Recursos:**
 >   - [Tutorial de Cómo Aprender TailWinds](https://www.youtube.com/watch?v=tS7upsfuxmo)
