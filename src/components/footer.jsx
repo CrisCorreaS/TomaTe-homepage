@@ -1,14 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-import { faPinterestP } from "@fortawesome/free-brands-svg-icons";
-import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faTiktok } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebookF,
+  faPinterestP,
+  faXTwitter,
+  faInstagram,
+  faYoutube,
+  faTiktok,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faEnvelope,
+  faPhone,
+  faGlobe,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 
 import logoHorizontal from "../assets/tomate-logo-horizontal-blanco.png";
 
@@ -19,7 +23,12 @@ function Footer() {
         <main className="container mx-auto max-w-7xl">
           <section className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
             <header className="col-span-3">
-              <a href="/" title="Go to TomaTé Home Page" target="_blank">
+              <a
+                href="/"
+                title="Go to TomaTé Home Page"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src={logoHorizontal}
                   alt="Logo Horizontal de TomaTé"
@@ -27,7 +36,7 @@ function Footer() {
                 />
                 <span className="sr-only">TomaTé Home Page</span>
               </a>
-              <p className="my-4 text-sm leading-normal text-bg-light-500">
+              <p className="my-4 text-xs leading-normal text-bg-light-500">
                 Sumérgete en el refinado arte del té, donde la elegancia se
                 fusiona con la exquisitez, ofreciendo una experiencia sensorial
                 única para los amantes del té más exigentes.
@@ -35,9 +44,9 @@ function Footer() {
               <label className="flex w-24">
                 <span className="sr-only">Select a language</span>
                 <select className="form-select form-select-sm bg-bg-dark">
-                  <option>Español</option>
-                  <option>Galego</option>
-                  <option>English</option>
+                  <option className="text-sm">Español</option>
+                  <option className="text-sm">Galego</option>
+                  <option className="text-sm">English</option>
                 </select>
               </label>
             </header>
@@ -47,36 +56,41 @@ function Footer() {
               </p>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="#"
-                className="flex mb-3 text-base font-medium text-bg-light-800 opacity-70 transition md:mb-2 hover:text-primary"
+                className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-70 md:mb-2 hover:opacity-100 transition-opacity duration-100"
               >
                 Productos TomaTé
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="#"
-                className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
               >
                 Quienes Somos
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="#"
-                className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
               >
-                Preguntas Frecuentes
+                FAQs
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="#"
-                className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
               >
                 Newsletter
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="#"
-                className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
               >
                 Blog
               </a>
@@ -93,8 +107,9 @@ function Footer() {
                 />
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="tel:+34987654321"
-                  className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                  className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
                 >
                   +34 987 654 321
                 </a>
@@ -107,8 +122,9 @@ function Footer() {
                 />
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="mailto:info@tomate.com"
-                  className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                  className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
                 >
                   info@tomate.com
                 </a>
@@ -121,8 +137,9 @@ function Footer() {
                 />
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="#"
-                  className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                  className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
                 >
                   tomate.com
                 </a>
@@ -135,8 +152,9 @@ function Footer() {
                 />
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="#"
-                  className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                  className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
                 >
                   Rua Caballeros, 1. <br /> 15006. A Coruña
                 </a>
@@ -148,29 +166,33 @@ function Footer() {
               </p>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="#"
-                className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
               >
                 Condiciones de Uso
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="#"
-                className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
               >
                 Aviso de Privacidad
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="#"
-                className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80  md:mb-2 hover:opacity-100 transition-opacity duration-100"
               >
                 Política de Cookies
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="#"
-                className="flex mb-3 text-base font-medium text-bg-light-800 opacity-80 transition md:mb-2 hover:text-primary"
+                className="flex mb-3 text-sm font-medium text-bg-light-800 opacity-80 md:mb-2 hover:opacity-100 transition-opacity duration-100"
               >
                 Centro de Ayuda
               </a>
@@ -186,7 +208,10 @@ function Footer() {
                     type="email"
                     placeholder="Correo Electrónico"
                   />
-                  <button className="btn btn-light-primary btn-sm" type="submit">
+                  <button
+                    className="btn btn-light-primary btn-sm"
+                    type="submit"
+                  >
                     Suscribirme
                   </button>
                 </article>
@@ -206,12 +231,30 @@ function Footer() {
               </p>
             </small>
             <article className="flex items-start justify-start space-x-6 text-bg-light-500 md:items-center md:justify-center">
-              <FontAwesomeIcon icon={faFacebookF} />
-              <FontAwesomeIcon icon={faPinterestP} />
-              <FontAwesomeIcon icon={faXTwitter} />
-              <FontAwesomeIcon icon={faInstagram} />
-              <FontAwesomeIcon icon={faYoutube} />
-              <FontAwesomeIcon icon={faTiktok} />
+              <FontAwesomeIcon
+                icon={faFacebookF}
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+              />
+              <FontAwesomeIcon
+                icon={faPinterestP}
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+              />
+              <FontAwesomeIcon
+                icon={faXTwitter}
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+              />
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+              />
+              <FontAwesomeIcon
+                icon={faYoutube}
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+              />
+              <FontAwesomeIcon
+                icon={faTiktok}
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+              />
             </article>
           </section>
         </main>
