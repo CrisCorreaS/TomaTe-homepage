@@ -19,8 +19,8 @@ import logoHorizontal from "../assets/tomate-logo-horizontal-blanco.png";
 function Footer() {
   return (
     <>
-      <footer className="flex flex-wrap justify-center items-center bg-bg-dark text-bg-light font-baskerville min-h-[10rem] px-4 py-12">
-        <main className="container mx-auto max-w-7xl">
+      <main className="flex flex-wrap justify-center items-center bg-bg-dark text-bg-light font-baskerville min-h-[10rem] px-4 py-12">
+        <div className="container mx-auto max-w-7xl">
           <section className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
             <header className="col-span-3">
               <a
@@ -257,8 +257,8 @@ function Footer() {
               />
             </article>
           </section>
-        </main>
-      </footer>
+        </div>
+      </main>
     </>
   );
 }
