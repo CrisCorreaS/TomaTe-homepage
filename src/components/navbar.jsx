@@ -35,7 +35,7 @@ function NavBar() {
               <ul className="flex items-center gap-8 text-base">
                 <li>
                   <a
-                    className="text-bg-dark hover:text-gray-500 transition-colors duration-100"
+                    className="text-bg-dark hover:text-gray-500 transition-colors duration-100 cursor-pointer"
                     href="/"
                   >
                     Té Orgánico
@@ -43,7 +43,7 @@ function NavBar() {
                 </li>
                 <li>
                   <a
-                    className="text-bg-dark hover:text-gray-500 transition-colors duration-100"
+                    className="text-bg-dark hover:text-gray-500 transition-colors duration-100 cursor-pointer"
                     href="/"
                   >
                     Infusiones
@@ -51,7 +51,7 @@ function NavBar() {
                 </li>
                 <li>
                   <a
-                    className="text-bg-dark hover:text-gray-500 transition-colors duration-100"
+                    className="text-bg-dark hover:text-gray-500 transition-colors duration-100 cursor-pointer"
                     href="/"
                   >
                     Blog
@@ -59,7 +59,7 @@ function NavBar() {
                 </li>
                 <li>
                   <a
-                    className="text-bg-dark hover:text-gray-500 transition-colors duration-100"
+                    className="text-bg-dark hover:text-gray-500 transition-colors duration-100 cursor-pointer"
                     href="/"
                   >
                     Sobre Nosotros

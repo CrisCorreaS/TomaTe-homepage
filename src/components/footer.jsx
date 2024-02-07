@@ -233,27 +233,27 @@ function Footer() {
             <article className="flex items-start justify-start space-x-6 text-bg-light-500 md:items-center md:justify-center">
               <FontAwesomeIcon
                 icon={faFacebookF}
-                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100 cursor-pointer"
               />
               <FontAwesomeIcon
                 icon={faPinterestP}
-                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100 cursor-pointer"
               />
               <FontAwesomeIcon
                 icon={faXTwitter}
-                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100 cursor-pointer"
               />
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100 cursor-pointer"
               />
               <FontAwesomeIcon
                 icon={faYoutube}
-                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100 cursor-pointer"
               />
               <FontAwesomeIcon
                 icon={faTiktok}
-                className="hover:opacity-100 opacity-75 transition-opacity duration-100"
+                className="hover:opacity-100 opacity-75 transition-opacity duration-100 cursor-pointer"
               />
             </article>
           </section>
