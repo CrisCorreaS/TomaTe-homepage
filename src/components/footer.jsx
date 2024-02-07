@@ -14,7 +14,7 @@ import {
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 
-import logoHorizontal from "../assets/tomate-logo-horizontal-blanco.png";
+import logoHorizontal from "../assets/logos/tomate-logo-horizontal-blanco.png";
 
 function Footer() {
   return (

@@ -7,7 +7,7 @@ import {
   faBars
 } from "@fortawesome/free-solid-svg-icons";
 
-import logo from "../assets/tomate-logo-horizontal-negro.png";
+import logo from "../assets/logos/tomate-logo-horizontal-negro.png";
 
 function NavBar() {
   const [isSearchVisible, setIsSearchVisible] = useState(false);
