@@ -19,7 +19,7 @@ function NavBar() {
   return (
     <>
       <nav className="bg-bg-light">
-        <section className="  text-bg-dark font-baskerville mt-6 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
+        <section className="  text-bg-dark font-baskerville mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
           <article className="md:flex md:items-center md:gap-12 bg-bg-light">
             <a className="block text-bg-dark" href="/">
               <span className="sr-only">TomaTé Home Page</span>
