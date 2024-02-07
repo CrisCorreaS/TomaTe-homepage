@@ -1,6 +1,5 @@
 function Button({ children = "Leer Más", enlace = "http://127.0.0.1:5173/" }) {
   return (
-    <>
       <a href={enlace} target="_blank" rel="noreferrer">
         <button
           type="button"
@@ -9,7 +8,6 @@ function Button({ children = "Leer Más", enlace = "http://127.0.0.1:5173/" }) {
           {children}
         </button>
       </a>
-    </>
   );
 }
 
