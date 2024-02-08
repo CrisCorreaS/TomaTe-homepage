@@ -116,14 +116,14 @@ function NavBar({ altura = "top-0" }) {
               className="rounded-md bg-bg-dark px-5 py-2.5 text-sm font-medium text-bg-light shadow"
               href="/"
             >
-              Login
+              Registro
             </a>
             <div className="hidden sm:flex">
               <a
                 className="rounded-md bg-bg-light px-5 py-2.5 text-sm font-medium text-bg-dark"
                 href="/"
               >
-                Registro
+                Login
               </a>
             </div>
           </article>
