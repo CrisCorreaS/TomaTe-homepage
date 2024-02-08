@@ -18,8 +18,8 @@ import logoHorizontal from "../assets/logos/tomate-logo-horizontal-blanco.png";
 
 function Footer() {
   return (
-    <main className="flex flex-wrap justify-center items-center bg-bg-dark text-bg-light font-baskerville min-h-[10rem] px-4 py-12">
-      <div className="container mx-auto max-w-7xl">
+    <main className="flex flex-wrap justify-center items-center bg-bg-dark text-bg-light font-baskerville min-h-[10rem] px-4 py-12 z-10">
+      <div className="container mx-auto w-full">
         <section className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
           <header className="col-span-3">
             <a
@@ -210,7 +210,7 @@ function Footer() {
             </p>
           </footer>
         </section>
-        <section className="flex flex-col items-start justify-between pt-10 mt-10 border-t border-bg-light-100 md:flex-row md:items-center">
+        <section className="flex flex-col justify-between pt-10 mt-10 border-t border-bg-light-100 md:flex-row items-center">
           <small className="mb-6 text-xxs text-left text-bg-light-600 md:mb-0 font-alegreya">
             <p>Copyright © 2024 TomaTé. Todos los derechos reservados.</p>
             <p>
