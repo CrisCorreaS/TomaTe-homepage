@@ -3,6 +3,7 @@ const QuoteTitle = ({
   colorTxt = "text-bg-dark",
   titulo = "Lujo en cada sorbo",
   texto = "Explora la perfección gracias a nuestra selección orgánica y mezclas artesanales. Un lujo digno de saborear",
+  children = null,
 }) => {
   return (
     <article
@@ -12,6 +13,9 @@ const QuoteTitle = ({
         {titulo}
       </h5>
       <p className="text-sm mb-4 italic md:text-lg md:mb-6">{texto}</p>
+      {children && ( // Usamos una expresión condicional para renderizar el botón solo si se pasa como prop
+        <div className="flex justify-center my-4 lg:my-6">{children}</div>
+      )}
     </article>
   );
 };
