@@ -25,11 +25,11 @@ function Hero(props) {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <section className="container w-full px-4 py-56 mx-auto text-center md:w-4/5 lg:w-3/4 lg:py-40 2xl:w-3/4 2xl:py-56">
+      <section className="container w-full px-4 pt-32 pb-10 mx-auto text-center md:w-4/5 lg:w-3/4 lg:pt-64 lg:pb-28 2xl:w-3/4 2xl:pt-80 2xl:pb-52">
         <h2 className="text-bg-light mb-6 text-3xl tracking-tight md:text-7xl md:mb-5 md:leading-tight">
           Coleccion de {getEstacion()[0]}
         </h2>
-        <p className="mb-2 text-xl text-bg-light mb-6">
+        <p className="text-xl text-bg-light mb-6">
           Descubre nuestros tés {getEstacion()[1]} favoritos
         </p>
         <article className="mb-0 text-sm">{props.children}</article>
