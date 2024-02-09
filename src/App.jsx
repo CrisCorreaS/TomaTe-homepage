@@ -18,7 +18,7 @@ export default function App() {
     <>
       <header>
         <Descuento></Descuento>
-        <NavBar altura="top-6" alturaValor="6"></NavBar>
+        <NavBar altura="top-6" alturaXL="xl:top-10" alturaValor="6"></NavBar>
       </header>
       <main className="bg-bg-dark">
         <Hero temporada="Verano">

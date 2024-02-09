@@ -9,7 +9,7 @@ import {
 
 import logo from "../assets/logos/tomate-logo-horizontal-negro.png";
 
-function NavBar({ altura = "top-0" }) {
+function NavBar({ altura = "top-0", alturaXL= "xl:top-0" }) {
   const [isSearchVisible, setIsSearchVisible] = useState(false);
 
   const toggleSearchVisibility = () => {
@@ -17,7 +17,7 @@ function NavBar({ altura = "top-0" }) {
   };
 
   return (
-    <nav className={`bg-bg-light fixed left-0 w-full ${altura} z-30`}>
+    <nav className={`bg-bg-light fixed left-0 w-full ${altura} ${alturaXL} z-30`}>
       <section className="  text-bg-dark font-baskerville mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
         <article className="md:flex md:items-center md:gap-12 bg-bg-light">
           <a className="block text-bg-dark" href="/">
@@ -70,7 +70,7 @@ function NavBar({ altura = "top-0" }) {
         <section className="flex items-center gap-4">
           <form className="flex items-center">
             {isSearchVisible && (
-              <div className="relative w-full">
+              <div className="relative w-52">
                 <button
                   type="button"
                   className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
@@ -84,7 +84,7 @@ function NavBar({ altura = "top-0" }) {
                 <input
                   type="text"
                   id="voice-search"
-                  className="bg-bg-light border border-bg-dark text-bg-dark text-sm rounded-lg focus:ring-primary-green focus:border-primary-green block w-full ps-10 p-2.5 pe-9"
+                  className="bg-bg-light border border-bg-dark text-bg-dark text-sm rounded-lg block w-full ps-10 p-2.5 pe-9 focus:ring-primary-green focus:border-primary-green hover:border-gray-500"
                   placeholder="Buscar..."
                 />
                 <button
@@ -113,14 +113,14 @@ function NavBar({ altura = "top-0" }) {
           </form>
           <article className="sm:flex sm:gap-3">
             <a
-              className="rounded-md bg-bg-dark px-5 py-2.5 text-sm font-medium text-bg-light shadow"
+              className="rounded-md bg-bg-dark px-5 py-2.5 text-sm font-medium text-bg-light shadow hover:bg-gray-700"
               href="/"
             >
               Registro
             </a>
             <div className="hidden sm:flex">
               <a
-                className="rounded-md bg-bg-light px-5 py-2.5 text-sm font-medium text-bg-dark"
+                className="rounded-md bg-bg-light px-5 py-2.5 text-sm font-medium text-bg-dark font-bold hover:bg-gray-200"
                 href="/"
               >
                 Login
