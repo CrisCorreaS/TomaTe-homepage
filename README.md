@@ -83,6 +83,10 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 >   - [Tutorial de cómo hacer una web con React + Vite + TailWindCSS](https://www.youtube.com/watch?v=GJCi3N_yU4I)
 >   - [frontendchecklist.io](https://frontendchecklist.io/) -> Nos ayuda a verificar una lista de 92 comprobaciones de todos los elementos que debe tener un Front-End para que esté completo y optimizado.
 >   - [Tutorial de React de MiduLive](https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29)
+> - **Herramientas:**
+>   - [frontendchecklist.io](https://frontendchecklist.io/) -> Nos ayuda a verificar una lista de 92 comprobaciones, organizadas por prioridad y categoría, de todos los elementos que debe tener un Front-End para que esté completo y optimizado. Estas comprobaciones están divididas por temas, como el head, el SEO, CSS, accesibilidad... Es muy útil porque permite asegurar que no se pasa nada por alto en el desarrollo de un sitio web
+>   - [Generador de flavicons](https://realfavicongenerator.net/) -> Nos permite generar favicons de alta calidad, adaptados a diferentes plataformas y navegadores, para nuestro sitio web. Podemos enviar una imagen de nuestro logo y nos crea los flavicons
+>   - [caninclude.glitch.me](https://caninclude.glitch.me/) -> Nos ayuda a comprobar si una etiqueta HTML puede incluirse dentro de otra. Para ello, debemos introducir la etiqueta padre y la etiqueta hijo y la web mostrará un mensaje indicando si la inclusión es válida o no
 > - **Colecciones, Librerías y Plantillas de Componentes de TailwindCss:** 
 >   - [Mamba UI](https://mambaui.com/components)
 >   - [Tail-Kit](https://www.tailwind-kit.com/components/)
