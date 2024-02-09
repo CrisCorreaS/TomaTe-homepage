@@ -56,6 +56,9 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 > A la hora de desarrollar el proyecto, te pueden venir bien los siguientes recursos:
 > - **Para empezar:**
 >   - [Tutorial de cómo inicializar un proyecto con TailWindCSS](https://tailwindcss.com/docs/guides/vite)
+> - **Para desplegar en GitHub Pages:**
+>   - [Repositorio que explica cómo desplegar](https://github.com/nickpazfernande/video-example)
+>   - [Video que explica cómo desplegar](https://www.youtube.com/watch?v=82XNPIiHvOQ)
 > - **HTML:**
 >    - [Validador HTML W3C](https://validator.w3.org/)
 >    - [seotoolseye.com](https://seotoolseye.com/) -> Proporciona una variedad de herramientas gratuitas para ayudar a mejorar el rendimiento de un sitio web
