@@ -12,6 +12,10 @@
 Este proyecto representa la página principal de mi Trabajo de Fin de Ciclo desarrollado con React y Tailwind CSS. La iniciativa surge como parte de los requisitos establecidos por mi profesor de interfaces, quien asignó la tarea de crear el frontend de la página principal para el proyecto de fin de curso.
 
 ## 👀 Vista Previa
+![Imagen](https://github.com/CrisCorreaS/TomaTe-homepage/blob/main/src/assets/img/vistaTomaTe.png)
+
+### ➡️ **Demo desplegada en GitHub Pages:** **[Haz click aquí](https://criscorreas.github.io/TomaTe-homepage/)**
+
 ## 💡 MockUp
 El diseño visual de la página principal se ha elaborado utilizando Figma. Puedes acceder al mockup y explorar la representación visual del proyecto [aquí](https://www.figma.com/file/tCnVM1srUXvKMLUDwMfkjg/TomaT%C3%A9-MockUp-HomePage?type=design&node-id=0%3A1&mode=design&t=DalFA718bvOnqLU1-1).
 
