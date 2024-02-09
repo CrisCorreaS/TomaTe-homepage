@@ -1,10 +1,11 @@
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 <img align="right" alt="License MIT" src="https://img.shields.io/badge/LICENSE-MIT-green" /> <br/>
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/react-097FA5?style=flat-square&logo=react&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-097FA5?style=flat-square&logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=flat-square&logo=vite&logoColor=white)
 <br/>
 
 # 🫖 TomaTe-homepage
@@ -82,6 +83,24 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 >   - [Tutorial de cómo hacer una web con React + Vite + TailWindCSS](https://www.youtube.com/watch?v=GJCi3N_yU4I)
 >   - [frontendchecklist.io](https://frontendchecklist.io/) -> Nos ayuda a verificar una lista de 92 comprobaciones de todos los elementos que debe tener un Front-End para que esté completo y optimizado.
 >   - [Tutorial de React de MiduLive](https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29)
+> - **Colecciones, Librerías y Plantillas de Componentes de TailwindCss:** 
+>   - [Mamba UI](https://mambaui.com/components)
+>   - [Tail-Kit](https://www.tailwind-kit.com/components/)
+>   - [HyperUI](https://www.hyperui.dev/)
+>   - [WindStatic](https://windstatic.com/)
+>   - [Preline](https://preline.co/docs/)
+>   - [daisyUI](https://daisyui.com/components/)
+>   - [TailBlocks](https://tailblocks.cc/)
+>   - [Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/css/alerts)
+>   - [Kutty](https://kutty.netlify.app/components/)
+>   - [Flowbite](https://flowbite.com/)
+>   - [XtendUI](https://xtendui.com/components/)
+>   - [Tailwind Toolbox](https://www.tailwindtoolbox.com/starter-components)
+>   - [erakiui](https://merakiui.com/components)
+>   - [headlessUI](https://headlessui.com/)
+>   - [Tailwind Components](https://tailwindcomponents.com/components/)
+>   - [Tailwind Awesome - parte gratis](https://www.tailwindawesome.com/?price=free&type=template)
+
 
 ## ➡️ Licencia
 Este proyecto está licenciado bajo [MIT License](https://opensource.org/license/mit/).
