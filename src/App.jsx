@@ -12,10 +12,24 @@ import CircleButton from "./components/circleButton";
 import ContenedorCirculos from "./components/contenedorCirculos";
 import ContenedorBlog from "./components/contenedorBlog";
 import BlogPost from "./components/blogPost";
+import CookieBanner from "./components/CookieBanner";
 
 export default function App() {
   return (
     <>
+      <CookieBanner>
+        <Button outro="border-solid border border-bg-light">
+          Aceptar
+        </Button>
+        <Button
+          colorLetras="bg-bg-dark"
+          fondo="text-bg-light"
+          animacion="hover:bg-primary-green hover:text-bg-light"
+          outro="border-solid border border-primary-green"
+        >
+          Cancelar
+        </Button>
+      </CookieBanner>
       <header>
         <Descuento></Descuento>
         <NavBar altura="top-6" alturaXL="xl:top-10" alturaValor="6"></NavBar>
