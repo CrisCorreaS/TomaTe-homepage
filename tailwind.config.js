@@ -21,9 +21,9 @@ export default {
       },
 
       fontFamily: {
-        alegreya: ["Alegreya Sans", "sans-serif"],
         baskerville: ["Libre Baskerville", "serif"],
         goudy: ["Sorts Mill Goudy", "cursive"],
+        alegreya: ["Alegreya Sans", "sans-serif"],
       },
 
       fontSize: {
