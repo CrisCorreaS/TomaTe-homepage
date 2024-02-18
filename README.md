@@ -63,6 +63,8 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 > - **Para desplegar en GitHub Pages:**
 >   - [Repositorio que explica cómo desplegar](https://github.com/nickpazfernande/video-example)
 >   - [Video que explica cómo desplegar](https://www.youtube.com/watch?v=82XNPIiHvOQ)
+> - **VSCode**
+>   - [Automatización tareas con VSCode](https://code.visualstudio.com/docs/editor/tasks)
 > - **HTML:**
 >    - [Validador HTML W3C](https://validator.w3.org/)
 >    - [seotoolseye.com](https://seotoolseye.com/) -> Proporciona una variedad de herramientas gratuitas para ayudar a mejorar el rendimiento de un sitio web
