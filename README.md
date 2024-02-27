@@ -29,14 +29,17 @@ El diseño visual de la página principal se ha elaborado utilizando Figma. Pued
 - **Estética cuidada:** Se han seleccionado colores y tipografías específicas, descritas en el archivo de configuración de Tailwind CSS, para crear una experiencia estética coherente.
 - **Barra de navegación:** Permite realizar búsquedas, registrarse o acceder al inicio de sesión de manera intuitiva.
 - **Footer completo:** Incluye un footer con información de copyright, enlaces importantes y una opción de inscripción a una newsletter.
+- **Uso de enlaces especiales "mailto:" y "tel:":** Se utilizan en el footer enlaces mailto: para direcciones de correo electrónico y enlaces tel: para números de teléfono, facilitando la comunicación directa con los usuarios.
 - **Diseño responsive:** La tienda se adapta a diferentes dispositivos y tamaños de pantalla.
 - **SEO mejorado:** Se utilizan etiquetas de meta y enlaces adecuados para mejorar el SEO y la visibilidad en los motores de búsqueda.
+- **Adaptado para Open Graph, Apple Web App Meta y Twitter Cards:** Se han implementado etiquetas adecuadas para una mejor visualización y compatibilidad en plataformas como Facebook, Twitter y dispositivos de Apple.
 - **Accesibilidad:** La tienda ha sido evaluada con la herramienta WAVE para garantizar la accesibilidad sin errores.
 - **Optimización del rendimiento:** Se han optimizado las métricas clave de rendimiento, como Largest Contentful Paint, Cumulative Layout Shift, First Contentful Paint, Time to First Byte y First Input Delay, asegurando una experiencia de usuario fluida.
 - **Favicons adaptados:** Se proporcionan favicons optimizados para diferentes dispositivos y navegadores.
 - **Iconos de FontAwesome:** Se utilizan iconos de FontAwesome para mejorar la usabilidad y la estética de la interfaz.
 - **Integración de Google Fonts:** Se integra la API de Google Fonts para garantizar una amplia variedad de tipografías disponibles para la personalización.
 - **Automatización de tareas del desarrollo:** Se utiliza tasks.json de Visual Studio Code para la automatización de tareas de desarrollo, lo que facilita el proceso de desarrollo y mantenimiento del proyecto.
+- **Despliegue en GitHub Pages:** La aplicación está desplegada en GitHub Pages para una fácil accesibilidad y visualización en línea.
 
 ## 🛠️ Tecnologías Utilizadas
 - **React**: El proyecto está construido con React, una biblioteca de JavaScript que facilita la creación de interfaces de usuario interactivas.
