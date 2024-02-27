@@ -19,6 +19,9 @@ Este proyecto representa la página principal de mi Trabajo de Fin de Ciclo desa
 ## 💡 MockUp
 El diseño visual de la página principal se ha elaborado utilizando Figma. Puedes acceder al mockup y explorar la representación visual del proyecto [aquí](https://www.figma.com/file/tCnVM1srUXvKMLUDwMfkjg/TomaT%C3%A9-MockUp-HomePage?type=design&node-id=0%3A1&mode=design&t=DalFA718bvOnqLU1-1).
 
+## 💅 Guía de Estilos
+La guía de estilos completa del proyecto la puedes encontrar [aquí](https://www.canva.com/design/DAFwnz5_LKI/ls97cyOBKuGmNC0tBZ40Uw/edit?utm_content=DAFwnz5_LKI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+
 ## 🌱 Características
 
 ## 🛠️ Tecnologías Utilizadas
