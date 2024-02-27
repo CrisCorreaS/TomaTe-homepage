@@ -6,7 +6,7 @@ const BlogPost = ({ children, colorFondo = "bg-primary-green", imageNumber, titu
   let imagenes=[imagen6, imagen7, imagen8]
 
   return (
-    <article className={`${colorFondo} text-bg-light m-auto overflow-hidden shadow-lg cursor-pointer transition duration-100 ease-in-out transform hover:shadow-2xl h-90 w-70 md:w-90`}>
+    <article className={`${colorFondo} text-bg-light w-80 m-auto overflow-hidden shadow-lg cursor-pointer transition duration-100 ease-in-out transform hover:shadow-2xl xl:w-96 md:h-full 2xl:h-lvh`}>
       <a href="#" className="block w-full h-full">
         <img
           alt="blog photo"
