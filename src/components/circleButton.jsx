@@ -6,7 +6,7 @@ const CircleButton = ({
   borderColor = "text-bg-dark",
 }) => {
   return (
-    <a src="/" target="_blank" rel="noreferrer" className="mx-5">
+    <a src="/" target="_blank" rel="noreferrer" className="mx-5 mb-20 sm:mb-0">
       <button
         onClick={onClick}
         className={` relative flex flex-col items-center justify-center w-20 h-20 ${colorCircunferencia} rounded-full focus:outline-none`}
