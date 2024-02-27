@@ -19,6 +19,9 @@ Este proyecto representa la página principal de mi Trabajo de Fin de Ciclo desa
 ## 💡 MockUp
 El diseño visual de la página principal se ha elaborado utilizando Figma. Puedes acceder al mockup y explorar la representación visual del proyecto [aquí](https://www.figma.com/file/tCnVM1srUXvKMLUDwMfkjg/TomaT%C3%A9-MockUp-HomePage?type=design&node-id=0%3A1&mode=design&t=DalFA718bvOnqLU1-1).
 
+## 💅 Guía de Estilos
+La guía de estilos completa del proyecto la puedes encontrar [aquí](https://www.canva.com/design/DAFwnz5_LKI/ls97cyOBKuGmNC0tBZ40Uw/edit?utm_content=DAFwnz5_LKI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+
 ## 🌱 Características
 
 ## 🛠️ Tecnologías Utilizadas
@@ -61,6 +64,7 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 > - **Para empezar:**
 >   - [Tutorial de cómo inicializar un proyecto con TailWindCSS](https://tailwindcss.com/docs/guides/vite)
 > - **Para desplegar en GitHub Pages:**
+>   - [Video que explica cómo desplegar](https://www.youtube.com/watch?v=tg-Xgx-lqXM&t=404s)
 >   - [Repositorio que explica cómo desplegar](https://github.com/nickpazfernande/video-example)
 >   - [Video que explica cómo desplegar](https://www.youtube.com/watch?v=82XNPIiHvOQ)
 > - **VSCode**
@@ -113,7 +117,15 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 >   - [headlessUI](https://headlessui.com/)
 >   - [Tailwind Components](https://tailwindcomponents.com/components/)
 >   - [Tailwind Awesome - parte gratis](https://www.tailwindawesome.com/?price=free&type=template)
-
+  
+> [!NOTE]
+> Al intentar desplegar el proyecto en GitHub Pages tuve varios errores y problemas, así que aquí voy a traer una guía paso a paso muy simple de cómo hacer el deploy de una aplicación de React con Vite. Ten en cuenta de que yo parto desde la perspectiva de que ya hemos acabado el proyecto, está en el repositorio y solo nos falta desplegarlo:
+> - **1-** Instalamos **gh-pages** como una dependencia de desarrollo del proyecto con el comando ``npm install --save-dev gh-pages``
+> - **2-** En el archivo **package.json** añadimos la línea ``"name": "nombre-proyecto"`` al principio del cuerpo principal (en este caso sería ``"name": "tomate-homepage"``) y en "scripts" añadimos ``"predeploy": "npm run build", "deploy": "gh-pages -d dist"``. Puedes ver el archivo en el el repositorio.
+> - **3-** En el archivo **vite.config.js** dentro del "export default defineConfig({...})" tenemos que añadir la línea ``base: "/nombre-repositorio/"``, en mi caso ``base: "/TomaTe-homepage/"``
+> - **4-** Hacemos un git add, git commit y git push de todos los cambios.
+> - **5-** Ejecutamos el comando ``npm run deploy`` y ya habríamos desplegado nuestra página en GitHub Pages, lo cual podemos comprobar llendo al apartado de ["Actions"](https://github.com/CrisCorreaS/TomaTe-homepage/actions)
+> Si hacemos cambios y queremos desplegar de nuevo, si ya hemos hecho los cinco pasos anteriores, ahora solo nos queda volver a guardar todos los cambios y ejecutar ``npm run deploy``
 
 ## ➡️ Licencia
 Este proyecto está licenciado bajo [MIT License](https://opensource.org/license/mit/).
