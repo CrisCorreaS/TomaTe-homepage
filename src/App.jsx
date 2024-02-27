@@ -18,14 +18,19 @@ export default function App() {
   return (
     <>
       <CookieBanner>
-        <Button outro="border-solid border border-bg-light">
+        <Button
+          colorLetras="bg-bg-dark"
+          fondo="text-bg-light"
+          animacion="hover:bg-bg-light hover:text-bg-dark transition-colors duration-300"
+          outro="border-solid border border-[#F7FFF4] max-w-36"
+        >
           Aceptar
         </Button>
         <Button
           colorLetras="bg-bg-dark"
           fondo="text-bg-light"
-          animacion="hover:bg-primary-green hover:text-bg-light"
-          outro="border-solid border border-primary-green"
+          animacion="hover:bg-bg-light hover:text-bg-dark transition-colors duration-300"
+          outro="border-solid border border-[#F7FFF4] max-w-36"
         >
           Cancelar
         </Button>
