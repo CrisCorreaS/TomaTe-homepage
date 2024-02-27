@@ -3,7 +3,7 @@ import imagen5 from "../assets/img/img5.png";
 
 function CtaImages(props) {
   return (
-    <header className="relative flex items-center justify-center w-full font-baskerville md:h-screen">
+    <section className="relative flex items-center justify-center w-full font-baskerville md:h-screen">
       <div
         className="absolute inset-0 bg-bg-dark opacity-30 bg-cover bg-center md:w-1/2 "
         style={{ backgroundImage: `url(${imagen4})` }}
@@ -21,7 +21,7 @@ function CtaImages(props) {
         </p>
         <article className="mb-0 text-xs md:text-sm">{props.children}</article>
       </section>
-    </header>
+    </section>
   );
 }
 export default CtaImages;
