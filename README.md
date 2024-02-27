@@ -36,6 +36,7 @@ El diseño visual de la página principal se ha elaborado utilizando Figma. Pued
 - **Favicons adaptados:** Se proporcionan favicons optimizados para diferentes dispositivos y navegadores.
 - **Iconos de FontAwesome:** Se utilizan iconos de FontAwesome para mejorar la usabilidad y la estética de la interfaz.
 - **Integración de Google Fonts:** Se integra la API de Google Fonts para garantizar una amplia variedad de tipografías disponibles para la personalización.
+- **Automatización de tareas del desarrollo:** Se utiliza tasks.json de Visual Studio Code para la automatización de tareas de desarrollo, lo que facilita el proceso de desarrollo y mantenimiento del proyecto.
 
 ## 🛠️ Tecnologías Utilizadas
 - **React**: El proyecto está construido con React, una biblioteca de JavaScript que facilita la creación de interfaces de usuario interactivas.
