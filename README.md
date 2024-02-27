@@ -16,13 +16,25 @@ Este proyecto representa la página principal de mi Trabajo de Fin de Ciclo desa
 
 ### ➡️ **Demo desplegada en GitHub Pages:** **[Haz click aquí](https://criscorreas.github.io/TomaTe-homepage/)**
 
-## 💡 MockUp
-El diseño visual de la página principal se ha elaborado utilizando Figma. Puedes acceder al mockup y explorar la representación visual del proyecto [aquí](https://www.figma.com/file/tCnVM1srUXvKMLUDwMfkjg/TomaT%C3%A9-MockUp-HomePage?type=design&node-id=0%3A1&mode=design&t=DalFA718bvOnqLU1-1).
-
 ## 💅 Guía de Estilos
 La guía de estilos completa del proyecto la puedes encontrar [aquí](https://www.canva.com/design/DAFwnz5_LKI/ls97cyOBKuGmNC0tBZ40Uw/edit?utm_content=DAFwnz5_LKI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
+## 💡 MockUp
+El diseño visual de la página principal se ha elaborado utilizando Figma. Puedes acceder al mockup y explorar la representación visual del proyecto [aquí](https://www.figma.com/file/tCnVM1srUXvKMLUDwMfkjg/TomaT%C3%A9-MockUp-HomePage?type=design&node-id=0%3A1&mode=design&t=DalFA718bvOnqLU1-1).
+
 ## 🌱 Características
+- Gestión de cookies: Se incluye un banner para aceptar o rechazar cookies, con funcionalidad para crear cookies según las preferencias del usuario.
+- Barra de navegación: Permite realizar búsquedas, registrarse o acceder al inicio de sesión de manera intuitiva.
+Función de determinación de estación: Basado en la fecha actual, se muestra información relevante sobre la estación del año.
+Estilo collage-bento: La estética de la tienda sigue un estilo collage-bento, lo que la hace visualmente atractiva y única.
+Optimización del rendimiento: Se han optimizado las métricas clave de rendimiento, como Largest Contentful Paint, Cumulative Layout Shift, First Contentful Paint, Time to First Byte y First Input Delay, asegurando una experiencia de usuario fluida.
+Favicons adaptados: Se proporcionan favicons optimizados para diferentes dispositivos y navegadores.
+SEO mejorado: Se utilizan etiquetas de meta y enlaces adecuados para mejorar el SEO y la visibilidad en los motores de búsqueda.
+Accesibilidad: La tienda ha sido evaluada con la herramienta WAVE para garantizar la accesibilidad sin errores.
+Diseño responsive: La tienda se adapta a diferentes dispositivos y tamaños de pantalla.
+Estética cuidada: Se han seleccionado colores y tipografías específicas, descritas en el archivo de configuración de Tailwind CSS, para crear una experiencia estética coherente.
+Iconos de FontAwesome: Se utilizan iconos de FontAwesome para mejorar la usabilidad y la estética de la interfaz.
+Integración de Google Fonts: Se integra la API de Google Fonts para garantizar una amplia variedad de tipografías disponibles para la personalización.
 
 ## 🛠️ Tecnologías Utilizadas
 - **React**: El proyecto está construido con React, una biblioteca de JavaScript que facilita la creación de interfaces de usuario interactivas.
