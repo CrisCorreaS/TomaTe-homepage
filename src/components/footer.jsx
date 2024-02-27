@@ -194,11 +194,14 @@ function Footer() {
             </p>
             <form action="#" className="mb-2">
               <article className="form-append">
-                <input
-                  className="form-input form-input-sm bg-bg-dark mr-5 mb-2 border border-white border-opacity-50 rounded-md px-2 hover:border-primary-green"
-                  type="email"
-                  placeholder="Correo Electrónico"
-                />
+                <label htmlFor="mail-newsletter">
+                  <input
+                    className="form-input form-input-sm bg-bg-dark mr-5 mb-2 border border-white border-opacity-50 rounded-md px-2 hover:border-primary-green"
+                    type="email"
+                    placeholder="Correo Electrónico"
+                    id="mail-newsletter"
+                  />
+                </label>
                 <button className="btn btn-light-primary btn-sm" type="submit">
                   Suscribirme
                 </button>
