@@ -128,6 +128,7 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 >   - [Creative Tim](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/css/alerts)
 >   - [Kutty](https://kutty.netlify.app/components/)
 >   - [Flowbite](https://flowbite.com/)
+>   - [TailFrames](https://www.tailframes.com/components/)
 >   - [XtendUI](https://xtendui.com/components/)
 >   - [Tailwind Toolbox](https://www.tailwindtoolbox.com/starter-components)
 >   - [erakiui](https://merakiui.com/components)
